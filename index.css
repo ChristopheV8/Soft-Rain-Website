@@ -60,13 +60,17 @@ nav {
     font-weight: lighter;
 }
 
+.logoimg {
+    transform: translate(35px);
+}
+
 .logo {
     color: black;
     font-size: 1.5rem;
     padding: 150px;
     display:  flex;
     align-items: center;
-    transform:translate(1%,-32%);
+    transform:translate(-6%,-32%);
 }
 
 .nav-items {
@@ -89,18 +93,14 @@ nav a:hover {
     color: black;
 }
 
-.hero {
-    background-color: black=25%;
-}
-
 .column-left {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    color: black;
+    color: #AAAAAA;
     font-family:"Source Sans 3";
-    transform: translate(17%, 25%);
+    transform: translate(18%, 25%);
 }
 
 h2 { display: flex;
@@ -108,24 +108,130 @@ h2 { display: flex;
      justify-content:flex-start;
 }
 
-button {
-    padding: 1rem 3rem;
-    font-size: 1 rem;
-    border: none;
-    color: black;
-    background: white;
-    cursor: pointer;
-    border-radius: 50px;
-}
 
-button:hover {
-    background: black;
-    color: white;
-}
-
-.column-right {
+.sumtittle {
     display: flex;
-    justify-content: center;
+    font-weight: lighter;
+    flex-direction: column;
+    transform: translate(164px, -180px);
+    font-size: 36px;
+    font-family:"EB Garamond";
+    color: #414A4C;
+}
+
+.pages {
+    display: flex;
+}
+
+.page1 {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.page1 p {
+    display: flex;
+    transform: translate(10%);
+    color: #AAA;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page2 {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1EDED;
+}
+
+.page2 p {
+    display: flex;
+    transform: translate(10%);
+    color: #AAA;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page3 {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E2E2;
+    
+}
+
+.page3 p {
+    display: flex;
+    transform: translate(10%);
+    color: #AAA;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pages a button {
+    padding: 15px;
+    background-color: #D9D9D9;
+    color: black;
+    border-color: rgba(255, 255, 255, .0);
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    font-style: normal;
+    border-radius: 6px;
+    transform: translate(32.5%);
+}
+
+.pages h3 {
+    display: flex;
+    transform: translate(10%);
+    color: #414A4C;
+    text-align: center;
+    font-family: "EB Garamond";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pages a button:hover {
+    color: white;
+    background-color: black;
+}
+
+.footer-bar {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    position:fixed;
+    bottom: 0;
+    width: 1440px;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-section {
+    display: flex;
     align-items: center;
-    padding: 0rem 2 rem;
+}
+
+.logof {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: "Eb Garamond";
 }
