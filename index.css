@@ -32,6 +32,7 @@ nav {
     height: 60vh;
     display: flex;
     flex-direction: column;
+    /* background-attachment: fixed; */
 }
 
 #hero.home {
@@ -39,6 +40,28 @@ nav {
     width: 1440px;
     height: 583px;
     background-position: 0% 53%;
+
+}
+
+#hero.home1 {
+    background-image: url(Convenience.png);
+    width: 1440px;
+    height: 583px;
+    background-position: 0% 73%;
+}
+
+#hero.home2 {
+    background-image: url(Safety.png);
+    width: 1440px;
+    height: 583px;
+    background-position: 0% 75%;
+}
+
+#hero.home3 {
+    background-image: url(Comfort.png);
+    width: 1440px;
+    height: 583px;
+    background-position: 0% 63%;
 }
 
 .smalllogo {
@@ -57,6 +80,22 @@ nav {
     font-family:"EB Garamond";
 }
 
+#hero-content1 {
+    background-color: rgba(0,0,0,0.35);
+    font-size: 44px;
+    padding:173px;
+    color: #fff;
+    height:  calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    font-family:"EB Garamond";
+}
+
+#hero-content1 h1 {
+    font-weight: lighter;
+}
+
+
 #hero-content h1 {
     font-weight: lighter;
 }
@@ -71,6 +110,7 @@ nav {
     padding: 150px;
     display:  flex;
     align-items: center;
+    font-family: "EB Garmond";
     transform:translate(-6%,-32%);
 }
 
@@ -92,6 +132,12 @@ nav a {
 
 nav a:hover {
     color: black;
+}
+
+.nav-items a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, .35);
+    border-radius: 5px;
 }
 
 .column-left {
@@ -236,7 +282,17 @@ h2 { display: flex;
 }
 
 .company-name {
+    font-style: normal;
     font-size: 1.2rem;
     font-weight: lighter;
     font-family: "Eb Garamond";
+    text-decoration: inherit;
+    color: black;
+}
+
+.company-name:hover {
+    color:white;
+    padding: .5rem;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 5px;
 }
