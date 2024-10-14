@@ -217,17 +217,22 @@ h2 { display: flex;
     line-height: normal;
 }
 
-.pages a button {
+.pages a {
     padding: 15px;
     background-color: #D9D9D9;
     color: black;
     border-color: rgba(255, 255, 255, .0);
     font-family: "Source Sans 3";
     font-size: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     font-style: normal;
+    text-decoration: none;
     border-radius: 6px;
-    transform: translate(32.5%);
+    margin-left: 3rem;
     margin-bottom: 2rem;
+    width: 160px
 }
 
 .pages h3 {
@@ -242,7 +247,7 @@ h2 { display: flex;
     line-height: normal;
 }
 
-.pages a button:hover {
+.pages a:hover {
     color: white;
     background-color: black;
 }
