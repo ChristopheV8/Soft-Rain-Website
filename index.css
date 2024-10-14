@@ -260,6 +260,12 @@ h2 { display: flex;
     
 }
 
+.footer-bar p {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
 .logo-section {
     display: flex;
     align-items: center;
@@ -333,4 +339,77 @@ h2 { display: flex;
     text-overflow: inherit;
     font-family: "Source Sans 3" ;
     white-space: wrap; 
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    background-color: #FFFFFF;
+    width: 1440px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 15px;
+}
+
+.grid-container1 {
+    display: grid;
+    justify-items: center;
+    background-color: #FFFFFF;
+    width: 1440px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 15px;
+}
+
+.card1 {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 570px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 393px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 393px;
+    height: 239px;
+    object-fit: cover;
+}
+
+.card1 img {
+    width: 750px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Source Sans 3";
+    color: #666;
 }
