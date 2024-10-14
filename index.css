@@ -80,16 +80,6 @@ nav {
     font-family:"EB Garamond";
 }
 
-#hero-content1 {
-    background-color: rgba(0,0,0,0.35);
-    font-size: 44px;
-    padding:173px;
-    color: #fff;
-    height:  calc(100% - 100px);
-    display: flex;
-    align-items: center;
-    font-family:"EB Garamond";
-}
 
 #hero-content1 h1 {
     font-weight: lighter;
@@ -295,4 +285,52 @@ h2 { display: flex;
     padding: .5rem;
     background-color: rgba(0,0,0,0.50);
     border-radius: 5px;
+}
+
+
+.convenience-items {
+    display: flex;
+    padding: .5rem;
+    justify-content: center;
+    font-family: "Eb Garamond";
+    font-weight: lighter;
+    font-size: 58px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+}
+
+.item img {
+    width: 60%; 
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; 
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 35%; 
+}
+
+.item-title {
+    font-size: 2.5em;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.item-description {
+    font-size: 1.5rem; 
+    color: #666;
+    line-height: 1.4em;
+    overflow: hidden; 
+    text-overflow: inherit;
+    font-family: "Source Sans 3" ;
+    white-space: wrap; 
 }
