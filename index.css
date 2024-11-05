@@ -36,7 +36,7 @@ nav {
 }
 
 #hero.home {
-    background-image: url(Soft-Rains-Smart-Homes.png);
+    background-image: url(Soft-Rains-Smart-Homes.jpg);
     width: 1440px;
     height: 583px;
     background-position: 0% 53%;
@@ -44,21 +44,21 @@ nav {
 }
 
 #hero.home1 {
-    background-image: url(Convenience.png);
+    background-image: url(Convenience.jpg);
     width: 1440px;
     height: 583px;
     background-position: 0% 73%;
 }
 
 #hero.home2 {
-    background-image: url(Safety.png);
+    background-image: url(Safety.jpg);
     width: 1440px;
     height: 583px;
     background-position: 0% 75%;
 }
 
 #hero.home3 {
-    background-image: url(Comfort.png);
+    background-image: url(Comfort.jpg);
     width: 1440px;
     height: 583px;
     background-position: 0% 63%;
